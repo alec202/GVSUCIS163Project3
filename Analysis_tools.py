@@ -18,7 +18,6 @@ class MyMath:
         mean = float_sum / len(float_sum)
         return mean
 
-    @staticmethod
     def median(data):
         float_nums = MyMath.cleanup(data)
         float_nums.sort()
